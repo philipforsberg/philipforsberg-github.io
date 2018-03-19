@@ -1,3 +1,20 @@
 body {
-  background-color: yellow;
+  text-align: center;
+}
+
+.info-box {
+  background: white;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.backimage-one {
+  background: url('https://images.unsplash.com/photo-1508967289497-b9c85158e02d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=956a875807ae3d1b502cbd6586c7065a&auto=format&fit=crop&w=1990&q=80') no-repeat center center;
+  background-size: cover;
+}
+
+.backimage-two {
+  background: url('https://images.unsplash.com/photo-1510020553968-30f966e1ec9e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74431fa8893bb465f3c8a637624c112a&auto=format&fit=crop&w=2767&q=80') no-repeat center center;
+  background-size: cover;
 }
