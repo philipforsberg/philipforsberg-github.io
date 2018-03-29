@@ -19,8 +19,26 @@ body {
   background-size: cover;
 }
 
+.project-four {
+  background: url('../images/project-four-image.png') no-repeat center center;
+  background-size: cover;
+  height: 100px;
+}
+
+.project-three {
+  background: url('../images/project-three-image.png') no-repeat center center;
+  background-size: cover;
+  height: 100px;
+}
+
+.project-two {
+  background: url('../images/project-two-image.png') no-repeat center center;
+  background-size: cover;
+  height: 100px;
+}
+
 .project-one {
-  background: url('../images/project-one-image.png');
+  background: url('../images/project-one-image.png') no-repeat center center;
   background-size: cover;
   height: 100px;
 }
