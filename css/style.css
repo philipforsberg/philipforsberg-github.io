@@ -18,3 +18,9 @@ body {
   background: url('https://images.unsplash.com/photo-1510020553968-30f966e1ec9e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74431fa8893bb465f3c8a637624c112a&auto=format&fit=crop&w=2767&q=80') no-repeat center center;
   background-size: cover;
 }
+
+.project-one {
+  background: url('../images/project-one-image.png');
+  background-size: cover;
+  height: 100px;
+}

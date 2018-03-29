@@ -1,5 +1,3 @@
-console.log('JS loaded');
-
 $(() => {
 
   $('#fullpage').fullpage({
