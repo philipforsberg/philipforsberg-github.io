@@ -6,7 +6,8 @@ body {
   background: white;
   border: 2px solid black;
   margin: 0 auto;
-  width: 400px;
+  width: 75vh;
+  padding: 50px;
 }
 
 .backimage-one {
@@ -41,4 +42,8 @@ body {
   background: url('../images/project-one-image.png') no-repeat center center;
   background-size: cover;
   height: 100px;
+}
+
+i {
+  font-size: 4em;
 }
