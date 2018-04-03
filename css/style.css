@@ -10,6 +10,14 @@ body {
   padding: 50px;
 }
 
+.projects-box {
+  background: white;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 90vh;
+  padding: 50px;
+}
+
 .backimage-one {
   background: url('https://images.unsplash.com/photo-1508967289497-b9c85158e02d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=956a875807ae3d1b502cbd6586c7065a&auto=format&fit=crop&w=1990&q=80') no-repeat center center;
   background-size: cover;
@@ -23,7 +31,7 @@ body {
 .project-four {
   background: url('../images/project-four-image.png') no-repeat center center;
   background-size: cover;
-  height: 100px;
+  height: 15vh;
 }
 
 .project-three {
