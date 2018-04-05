@@ -2,11 +2,23 @@ body {
   text-align: center;
 }
 
+/* #menu {
+  position: relative;
+} */
+
 .info-box {
-  background: white;
+  background-color: rgb(255, 255, 255);
   border: 2px solid black;
   margin: 0 auto;
   width: 75vh;
+  padding: 50px;
+}
+
+.info-box-skills {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 80vh;
   padding: 50px;
 }
 
@@ -31,6 +43,7 @@ body {
 .project-four {
   background: url('../images/project-four-image.png') no-repeat center center;
   background-size: cover;
+  /* border: 2px solid black; */
   height: 15vh;
 }
 
@@ -50,6 +63,28 @@ body {
   background: url('../images/project-one-image.png') no-repeat center center;
   background-size: cover;
   height: 100px;
+}
+
+.card-img-top{
+  border: 1px solid black;
+}
+
+.all-skills {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.skills-one i {
+  font-size: 7em;
+}
+
+.skills-two i {
+  font-size: 5em;
+}
+
+.skills-three i {
+  font-size: 4em;
 }
 
 i {

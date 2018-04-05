@@ -9,19 +9,32 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/de8230c6b5.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.min.js"></script>
     <script src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
-
     <main>
+      <!--
+      <div id="menu">
+      <div class="navbar">
+      <div class="nav-wrapper">
+      <ul id="nav-mobile" class="hide-on-med-and-down">
+      <div class="row">
+      <li data-menuanchor="home" class="active"><a class="navlink" href="#home">Home</a></li>
+      <li data-menuanchor="projects"><a class="navlink" href="#projects">Projects</a></li>
+      <li data-menuanchor="skills"><a class="navlink" href="#skills">Skills</a></li>
+      <li data-menuanchor="about"><a class="navlink" href="#about">About</a></li>
+    </div>
+  </ul>
+  </div>
+  </div>
+  </div> -->
+
+
 
       <div id="fullpage">
-        <div class="section backimage-one">
+        <div class="section backimage-one" id="section0">
           <div class="info-box">
             <h1>Philip Forsberg</h1>
             <h2>Web Developer</h2>
@@ -30,7 +43,7 @@
             <a href="mailto:philippernf@gmail.com?Subject=Hello%20Philip" target="_top"><i class="fa fa-envelope front-icon" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="section backimage-two">
+        <div class="section backimage-two" id="section1">
           <div class="slide">
             <div class="info-box card">
               <img class="card-img-top" src="./images/project-four-image.png" alt="Card image cap">
@@ -72,52 +85,56 @@
             </div>
           </div>
         </div>
-        <div class="section backimage-one">
-          <div class="info-box">
-            <h2>Developing skills</h2>
-            <div class="top-three">
-              <h3>Top 3 skills, based on confidence</h3>
-              <i class="devicon-javascript-plain colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
-              <i class="devicon-react-original-wordmark colored"></i>
-            </div>
+        <div class="section backimage-one" id="section2">
+          <div class="info-box-skills">
+            <h2>Skills</h2>
             </br>
-            <div class="skills-icons">
-              <h3>Other skills</h3>
-              <i class="devicon-jquery-plain-wordmark colored"></i>
-              <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-angularjs-plain-wordmark colored"></i>
-              <i class="devicon-atom-original-wordmark colored"></i>
-              <i class="devicon-bootstrap-plain-wordmark colored"></i>
-              <i class="devicon-bower-line-wordmark colored"></i>
-              <i class="devicon-babel-plain colored"></i>
-              <i class="devicon-express-original-wordmark colored"></i>
-              <i class="devicon-github-plain-wordmark colored"></i>
-              <i class="devicon-git-plain-wordmark colored"></i>
-              <i class="devicon-gulp-plain colored"></i>
-              <i class="devicon-heroku-original-wordmark colored"></i>
-              <i class="devicon-mongodb-plain-wordmark colored"></i>
-              <i class="devicon-nodejs-plain-wordmark colored"></i>
-              <i class="devicon-postgresql-plain-wordmark colored"></i>
-              <i class="devicon-ruby-plain-wordmark colored"></i>
-              <i class="devicon-rails-plain-wordmark colored"></i>
-              <i class="devicon-webpack-plain-wordmark colored"></i>
-              <i class="devicon-sass-original colored"></i>
-              <i class="devicon-slack-plain-wordmark colored"></i>
-
+            <div class="all-skills">
+              <div class="row skills-one">
+                <i class="col devicon-javascript-plain colored"></i>
+                <i class="col devicon-css3-plain-wordmark colored"></i>
+                <i class="col devicon-react-original-wordmark colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+              </div>
+            </br>
+            </br>
+              <div class="row skills-two">
+                <i class="col devicon-jquery-plain-wordmark colored"></i>
+                <i class="col devicon-angularjs-plain-wordmark colored"></i>
+                <i class="col devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="col devicon-nodejs-plain-wordmark colored"></i>
+                <i class="col devicon-git-plain-wordmark colored"></i>
+              </div>
+            </br>
+            </br>
+              <div class="row skills-three">
+                <i class="col devicon-sass-original colored"></i>
+                <i class="col devicon-gulp-plain colored"></i>
+                <i class="col devicon-express-original-wordmark colored"></i>
+                <i class="col devicon-postgresql-plain-wordmark colored"></i>
+                <i class="col devicon-mongodb-plain-wordmark colored"></i>
+                <i class="col devicon-bower-line-wordmark colored"></i>
+              </div>
+              </br>
+              <div class="row skills-three">
+                <i class="col devicon-atom-original-wordmark colored"></i>
+                <i class="col devicon-slack-plain-wordmark colored"></i>
+                <i class="col devicon-webpack-plain-wordmark colored"></i>
+                <i class="col devicon-ruby-plain-wordmark colored"></i>
+                <i class="col devicon-rails-plain-wordmark colored"></i>
+                <i class="col devicon-heroku-original-wordmark colored"></i>
+              </div>
             </div>
           </div>
         </div>
-        <div class="section backimage-two">
+        <div class="section backimage-two" id="section3">
           <div class="info-box">
             <h2>About me</h2>
             <p>Hello! My name is Philip and I recently decided to make a career change to start developing. </p>
-            <p>I moved to London a short while a go to pursue a career as a web developer, and I am looking forward to taking my first steps of the school bench, and onto the next step of my career.</p>
+            <p>I moved to London in November to pursue a career as a web developer, and I am looking forward to taking my first steps of the school bench, and onto the next step of my career.</p>
           </div>
         </div>
       </div>
-
     </main>
-
   </body>
 </html>
